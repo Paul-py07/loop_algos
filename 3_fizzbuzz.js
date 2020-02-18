@@ -4,10 +4,30 @@
 // If a number if divisible by 3 AND 5 it will print "FizzBuzz"
 // If it is not divisible by either the number will print out
 
-//The expected output will be 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz .... etc 
+//The expected output will be 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz .... etc
 
+// for (var i = 1; i <= 30; i++) {
+//   if (i % 3 == 0 && i % 5 == 0) {
+//     console.log("fizzbuzz");
+//   } else if (i % 3 == 0) {
+//     console.log("fizz");
+//   } else if (i % 5 == 0) {
+//     console.log("buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }
 
-
-
-
-//YOUR CODE HERE
+var i = 1;
+while (i <= 30) {
+  i++;
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log("fizzbuzz");
+  } else if (i % 3 == 0) {
+    console.log("fizz");
+  } else if (i % 5 == 0) {
+    console.log("buzz");
+  } else {
+    console.log(i);
+  }
+}
